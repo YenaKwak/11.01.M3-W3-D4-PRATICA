@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+  body {
+    background-color: #EFEEF2;
+}
+
+  /* Navbar area */
+
+
+.navbar {
+    background-color: white; 
+}
+
+
+  #navbarDropdown{
+      color: black !important;
+  }
+
+  #user_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 15px;
+  }
+
+  #user_logo_on {
+    font-size: 9px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 14px;
+  }
+
+  #bell_logo{
+    width: 40px;
+    height: 40px;
+    border: 15px solid #F5F4F8 ;
+    border-radius: 50%;
+    position: relative;
+  }
+
+
+#user_logo_on2{
+    font-size: 9px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 7.5em; 
+}
+
+
+
+/* Carousel area */
+#car_caption{
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(20%, -60%);
+    }
+
+#carousel_item {
+    height: 400px !important;
+}
+
+
+.carousel_caption{
+    width: 340px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    padding: 3px;
+    color: #BCA8FF;
+    position: relative;
+}
+
+#carousel_on_img{
+position: absolute;
+top: 0%;
+right: 25%;
+}
+
+.carousel_buttons a{
+    font-size: 13px;
+}
+
+#car_button_1 {
+    background-color: #7bc698;
+    color: white;
+    font-size: 14px;
+}
+
+
+#car_button_2 {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+/* hanging area */
+.banner-section{
+  background-color: white;
+}
+
+
+
+.banner-section{
+    padding-top: 0px;
+    border-bottom: 2px solid #E2E1E8; 
+    background-color: white;
+}
+
+.banner-section h2,p{
+    font-size: 17px;
+}
+
+#hanging-icons_mod{
+    border: 19px solid #FFEEDA ;
+    border-radius: 50%;
+    color: #C28135;
+    font-size: 15px;
+    
+}
+
+
+
+/* Card area */
+
+
+
+.card {
+    border-radius: 15px;
+  }
+
+  
+
+  .card-footer {
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+  }
+
+
+
+i.bookmarkIcon {
+  cursor: pointer;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+div.card-block{
+  position: relative;
+  
+}
+
+
+div.card-block:hover{
+  transform: scale(1.005);
+  transition: transform 0.2s linear 0.1s;
+  z-index: 2;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); 
+}
+
+div.card-info{
+  position: absolute;
+  top:0;
+  display: none;
+}
+
+.show{
+  display: block !important;
+}
